@@ -52,7 +52,7 @@ class MixamoPropertyGroup(bpy.types.PropertyGroup):
         name="Hip Bone Name",
         description="Name to identify the hip bone if not MixamoRig:Hips",
         maxlen = 256,
-        default = "mixamorig:Hips",
+        default = "Hips",
         subtype='NONE')
     root_name: bpy.props.StringProperty(
         name="Root Bone Name",
